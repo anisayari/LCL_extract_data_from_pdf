@@ -56,3 +56,4 @@ df['CREDIT'] = pd.to_numeric(df['CREDIT'], errors='coerce')
 df['VALEUR'] = pd.to_datetime(df['VALEUR'], format="%d.%m.%y")
 
 df = pd.concat(dfs_clean,ignore_index=True)
+df.to_csv('data.csv', index=False)
