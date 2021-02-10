@@ -15,3 +15,5 @@ The goal of this repo is to purpose a python script to extract a tabular dataset
 
 It is currently under development and you may get error not yet fixed, so please do not hesitate to open issue and to contribute.
 
+By the way it is a total unofficial repo.
+
